@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14E38657-E9F7-45BC-8A77-A5FEC36F8A92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{68A7D403-4AEC-4158-9D11-3C10A46D1717}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DooHAdvertAPI", "src\backend\DooHAdvertAPI\DooHAdvertAPI.csproj", "{CE2BE569-C09E-4A5A-A27E-E57CC89397B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{97195A35-4C9A-4273-900F-133472DAC2E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DooHAdvertWebApp", "src\frontend\DooHAdvertWebApp\DooHAdvertWebApp.csproj", "{D72FF757-963B-42D6-A5A5-9584951E9F7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE2BE569-C09E-4A5A-A27E-E57CC89397B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2BE569-C09E-4A5A-A27E-E57CC89397B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2BE569-C09E-4A5A-A27E-E57CC89397B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2BE569-C09E-4A5A-A27E-E57CC89397B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72FF757-963B-42D6-A5A5-9584951E9F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72FF757-963B-42D6-A5A5-9584951E9F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72FF757-963B-42D6-A5A5-9584951E9F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72FF757-963B-42D6-A5A5-9584951E9F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68A7D403-4AEC-4158-9D11-3C10A46D1717} = {14E38657-E9F7-45BC-8A77-A5FEC36F8A92}
+		{CE2BE569-C09E-4A5A-A27E-E57CC89397B7} = {68A7D403-4AEC-4158-9D11-3C10A46D1717}
+		{97195A35-4C9A-4273-900F-133472DAC2E5} = {14E38657-E9F7-45BC-8A77-A5FEC36F8A92}
+		{D72FF757-963B-42D6-A5A5-9584951E9F7B} = {97195A35-4C9A-4273-900F-133472DAC2E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C07DB71-FB76-4517-A7BB-6C8FFF0D9B53}
+	EndGlobalSection
+EndGlobal

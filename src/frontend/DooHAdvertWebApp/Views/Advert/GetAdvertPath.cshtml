@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "GetAdvertPath";
+}
+
+<h1>Advert Path</h1>
+
+<form asp-action="GetAdvertPath" method="get">
+    <div class="form-group">
+        <label for="cityName">City Name:</label>
+        <input type="text" id="cityName" name="cityName" class="form-control" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Get Advert Path</button>
+</form>
+
+@if (ViewBag.AdvertPath != null)
+{
+    <h3>Advert Path:</h3>
+    <p>@ViewBag.AdvertPath</p>
+}
+
+
+
